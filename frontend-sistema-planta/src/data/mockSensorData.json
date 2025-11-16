@@ -1,0 +1,80 @@
+{
+  "plant_001": {
+    "current": {
+      "timestamp": "2024-01-20T15:00:00Z",
+      "soilMoisture": 2450,
+      "temperature": 24.5,
+      "humidity": 65.2,
+      "pressure": 1013.25,
+      "airQuality": 150,
+      "dustPM25": 35.4,
+      "pumpStatus": false
+    },
+    "history": []
+  },
+  "plant_002": {
+    "current": {
+      "timestamp": "2024-01-20T15:00:00Z",
+      "soilMoisture": 2180,
+      "temperature": 22.3,
+      "humidity": 70.5,
+      "pressure": 1013.10,
+      "airQuality": 120,
+      "dustPM25": 28.2,
+      "pumpStatus": false
+    },
+    "history": []
+  },
+  "plant_003": {
+    "current": {
+      "timestamp": "2024-01-20T15:00:00Z",
+      "soilMoisture": 2650,
+      "temperature": 26.8,
+      "humidity": 58.3,
+      "pressure": 1013.45,
+      "airQuality": 180,
+      "dustPM25": 42.1,
+      "pumpStatus": false
+    },
+    "history": []
+  },
+  "plant_004": {
+    "current": {
+      "timestamp": "2024-01-20T15:00:00Z",
+      "soilMoisture": 2280,
+      "temperature": 21.9,
+      "humidity": 68.7,
+      "pressure": 1013.00,
+      "airQuality": 110,
+      "dustPM25": 25.8,
+      "pumpStatus": false
+    },
+    "history": []
+  },
+  "plant_005": {
+    "current": {
+      "timestamp": "2024-01-20T15:00:00Z",
+      "soilMoisture": 2050,
+      "temperature": 23.7,
+      "humidity": 62.4,
+      "pressure": 1013.30,
+      "airQuality": 130,
+      "dustPM25": 30.5,
+      "pumpStatus": false
+    },
+    "history": []
+  },
+  "plant_006": {
+    "current": {
+      "timestamp": "2024-01-20T15:00:00Z",
+      "soilMoisture": 2850,
+      "temperature": 28.2,
+      "humidity": 52.1,
+      "pressure": 1013.55,
+      "airQuality": 200,
+      "dustPM25": 48.3,
+      "pumpStatus": false
+    },
+    "history": []
+  }
+}

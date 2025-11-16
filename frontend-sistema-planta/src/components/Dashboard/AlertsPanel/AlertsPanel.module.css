@@ -1,0 +1,96 @@
+.panel {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.panel h3 {
+  margin: 0 0 var(--spacing-lg) 0;
+  color: var(--color-text-primary);
+}
+
+.noAlerts {
+  text-align: center;
+  color: var(--color-text-secondary);
+  padding: var(--spacing-xl);
+}
+
+.alertsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.alert {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-sm);
+  border-left: 4px solid;
+}
+
+.alert.critical {
+  background: rgba(244, 67, 54, 0.1);
+  border-color: var(--color-error);
+}
+
+.alert.warning {
+  background: rgba(255, 152, 0, 0.1);
+  border-color: var(--color-warning);
+}
+
+.alert.info {
+  background: rgba(33, 150, 243, 0.1);
+  border-color: var(--color-info);
+}
+
+.alertIcon {
+  font-size: 1.25rem;
+}
+
+.alert.critical .alertIcon {
+  color: var(--color-error);
+}
+
+.alert.warning .alertIcon {
+  color: var(--color-warning);
+}
+
+.alert.info .alertIcon {
+  color: var(--color-info);
+}
+
+.alertContent {
+  flex: 1;
+}
+
+.alertContent h4 {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.alertContent p {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+.time {
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.resolveBtn {
+  background: transparent;
+  color: var(--color-text-secondary);
+  padding: var(--spacing-xs);
+  min-width: auto;
+}
+
+.resolveBtn:hover {
+  color: var(--color-text-primary);
+  background: var(--color-background);
+}

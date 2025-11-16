@@ -1,0 +1,94 @@
+{
+  "plants": [
+    {
+      "id": "plant_001",
+      "name": "Tomateiro Estufa",
+      "location": "Estufa Principal",
+      "type": "Solanum lycopersicum",
+      "status": "healthy",
+      "imageUrl": "/images/tomato.jpg",
+      "installDate": "2024-01-15",
+      "lastWatering": "2024-01-20T14:30:00Z",
+      "settings": {
+        "moistureThreshold": 2500,
+        "wateringInterval": 600000,
+        "autoMode": true
+      }
+    },
+    {
+      "id": "plant_002",
+      "name": "Alface Hidropônica",
+      "location": "Sistema Hidropônico A",
+      "type": "Lactuca sativa",
+      "status": "healthy",
+      "imageUrl": "/images/lettuce.jpg",
+      "installDate": "2024-01-10",
+      "lastWatering": "2024-01-20T12:00:00Z",
+      "settings": {
+        "moistureThreshold": 2200,
+        "wateringInterval": 300000,
+        "autoMode": true
+      }
+    },
+    {
+      "id": "plant_003",
+      "name": "Pimentão Verde",
+      "location": "Estufa Secundária",
+      "type": "Capsicum annuum",
+      "status": "warning",
+      "imageUrl": "/images/pepper.jpg",
+      "installDate": "2024-01-08",
+      "lastWatering": "2024-01-20T10:15:00Z",
+      "settings": {
+        "moistureThreshold": 2400,
+        "wateringInterval": 480000,
+        "autoMode": true
+      }
+    },
+    {
+      "id": "plant_004",
+      "name": "Morango Vertical",
+      "location": "Torre Vertical 1",
+      "type": "Fragaria × ananassa",
+      "status": "healthy",
+      "imageUrl": "/images/strawberry.jpg",
+      "installDate": "2024-01-05",
+      "lastWatering": "2024-01-20T13:45:00Z",
+      "settings": {
+        "moistureThreshold": 2300,
+        "wateringInterval": 420000,
+        "autoMode": true
+      }
+    },
+    {
+      "id": "plant_005",
+      "name": "Manjericão",
+      "location": "Bancada de Ervas",
+      "type": "Ocimum basilicum",
+      "status": "healthy",
+      "imageUrl": "/images/basil.jpg",
+      "installDate": "2024-01-12",
+      "lastWatering": "2024-01-20T11:30:00Z",
+      "settings": {
+        "moistureThreshold": 2100,
+        "wateringInterval": 360000,
+        "autoMode": false
+      }
+    },
+    {
+      "id": "plant_006",
+      "name": "Cenoura Baby",
+      "location": "Canteiro Externo",
+      "type": "Daucus carota",
+      "status": "critical",
+      "imageUrl": "/images/carrot.jpg",
+      "installDate": "2024-01-03",
+      "lastWatering": "2024-01-19T16:00:00Z",
+      "settings": {
+        "moistureThreshold": 2600,
+        "wateringInterval": 720000,
+        "autoMode": true
+      }
+    }
+  ]
+}

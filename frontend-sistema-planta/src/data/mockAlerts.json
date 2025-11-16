@@ -1,0 +1,31 @@
+{
+  "alerts": [
+    {
+      "id": "alert_001",
+      "plantId": "plant_003",
+      "type": "warning",
+      "title": "Solo Seco",
+      "message": "Umidade do solo acima do limite (2650 > 2400)",
+      "timestamp": "2024-01-20T14:45:00Z",
+      "resolved": false
+    },
+    {
+      "id": "alert_002",
+      "plantId": "plant_006",
+      "type": "critical",
+      "title": "Solo Muito Seco",
+      "message": "Planta necessita irrigação urgente (2850 > 2600)",
+      "timestamp": "2024-01-20T14:30:00Z",
+      "resolved": false
+    },
+    {
+      "id": "alert_003",
+      "plantId": "plant_006",
+      "type": "warning",
+      "title": "Temperatura Alta",
+      "message": "Temperatura acima do ideal (28.2°C)",
+      "timestamp": "2024-01-20T14:00:00Z",
+      "resolved": false
+    }
+  ]
+}

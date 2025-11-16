@@ -1,0 +1,12 @@
+.chartContainer {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.title {
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: 1.125rem;
+  color: var(--color-text-primary);
+}

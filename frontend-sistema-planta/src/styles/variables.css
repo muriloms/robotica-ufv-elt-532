@@ -1,0 +1,54 @@
+:root {
+  /* Cores Principais - Mais vibrantes */
+  --color-primary: #00C853;
+  --color-secondary: #2979FF;
+  --color-success: #00E676;
+  --color-warning: #FFA726;
+  --color-error: #EF5350;
+  --color-info: #29B6F6;
+  
+  /* Cores Neutras */
+  --color-background: #f8f9fa;
+  --color-surface: #FFFFFF;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #606060;
+  --color-border: rgba(0, 0, 0, 0.08);
+  
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-success: linear-gradient(135deg, #00C853 0%, #00E676 100%);
+  --gradient-warning: linear-gradient(135deg, #FFA726 0%, #FFB74D 100%);
+  --gradient-error: linear-gradient(135deg, #EF5350 0%, #E53935 100%);
+  
+  /* Sombras - Mais suaves e coloridas */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.12);
+  --shadow-colored: 0 4px 20px rgba(102, 126, 234, 0.3);
+  
+  /* Espaçamentos */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+  --spacing-xxxl: 64px;
+  
+  /* Border Radius - Mais arredondado */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 50%;
+  
+  /* Transições */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Breakpoints */
+  --breakpoint-mobile: 768px;
+  --breakpoint-tablet: 1024px;
+  --breakpoint-desktop: 1440px;
+}
